@@ -2591,6 +2591,274 @@ input, select, textarea {
 				margin: 2em 0 0 0;
 			}
 
+			#barer-banner {
+				background-attachment: scroll, scroll, scroll, fixed;
+				background-color: #645862;
+				background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/barer-banner.jpg");
+				background-position: bottom left, bottom right, top left, top center;
+				background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+				background-size: 25em, 25em, auto, cover;
+				color: #fff;
+				cursor: default;
+				padding: 6em 0;
+				text-align: center;
+				background-size: cover;
+			}
+		
+				#barer-banner .inner {
+					-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+					-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+					-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+					animation: reveal-banner 1s 0.25s ease-in-out;
+					-moz-animation-fill-mode: forwards;
+					-webkit-animation-fill-mode: forwards;
+					-ms-animation-fill-mode: forwards;
+					animation-fill-mode: forwards;
+					background: rgba(52, 27, 43, 0.5);
+					color: #fff;
+					display: inline-block;
+					opacity: 0;
+					padding: 3em;
+					text-align: center;
+				}
+		
+					#barer-banner .inner header {
+						display: inline-block;
+						border-bottom: solid 2px;
+						border-top: solid 2px;
+						margin: 0 0 2em 0;
+						padding: 3px 0 3px 0;
+					}
+		
+						#barer-banner .inner header h2 {
+							border-bottom: solid 2px;
+							border-top: solid 2px;
+							font-size: 2.5em;
+							font-weight: 900;
+							letter-spacing: 0.2em;
+							margin: 0;
+							padding-left: 0.05em;
+							position: relative;
+							text-transform: uppercase;
+						}
+		
+					#barer-banner .inner p {
+						letter-spacing: 0.1em;
+						margin: 0;
+						text-transform: uppercase;
+					}
+		
+						#barer-banner .inner p a {
+							color: inherit;
+							font-weight: 400;
+							text-decoration: none;
+						}
+		
+					#barer-banner .inner footer {
+						margin: 2em 0 0 0;
+					}
+
+								#restaurant-banner {
+				background-attachment: scroll, scroll, scroll, fixed;
+				background-color: #645862;
+				background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/restaurant-banner.jpg");
+				background-position: bottom left, bottom right, top left, top center;
+				background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+				background-size: 25em, 25em, auto, cover;
+				color: #fff;
+				cursor: default;
+				padding: 6em 0;
+				text-align: center;
+				background-size: cover;
+			}
+		
+				#restaurant-banner .inner {
+					-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+					-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+					-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+					animation: reveal-banner 1s 0.25s ease-in-out;
+					-moz-animation-fill-mode: forwards;
+					-webkit-animation-fill-mode: forwards;
+					-ms-animation-fill-mode: forwards;
+					animation-fill-mode: forwards;
+					background: rgba(52, 27, 43, 0.5);
+					color: #fff;
+					display: inline-block;
+					opacity: 0;
+					padding: 3em;
+					text-align: center;
+				}
+		
+					#restaurant-banner .inner header {
+						display: inline-block;
+						border-bottom: solid 2px;
+						border-top: solid 2px;
+						margin: 0 0 2em 0;
+						padding: 3px 0 3px 0;
+					}
+		
+						#restaurant-banner .inner header h2 {
+							border-bottom: solid 2px;
+							border-top: solid 2px;
+							font-size: 2.5em;
+							font-weight: 900;
+							letter-spacing: 0.2em;
+							margin: 0;
+							padding-left: 0.05em;
+							position: relative;
+							text-transform: uppercase;
+						}
+		
+					#restaurant-banner .inner p {
+						letter-spacing: 0.1em;
+						margin: 0;
+						text-transform: uppercase;
+					}
+		
+						#restaurant-banner .inner p a {
+							color: inherit;
+							font-weight: 400;
+							text-decoration: none;
+						}
+		
+					#restaurant-banner .inner footer {
+						margin: 2em 0 0 0;
+					}
+
+					#gåruter-banner {
+						background-attachment: scroll, scroll, scroll, fixed;
+						background-color: #645862;
+						background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/gåruter-banner.png");
+						background-position: bottom left, bottom right, top left, top center;
+						background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+						background-size: 25em, 25em, auto, cover;
+						color: #fff;
+						cursor: default;
+						padding: 6em 0;
+						text-align: center;
+						background-size: cover;
+					}
+				
+						#gåruter-banner .inner {
+							-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+							-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+							-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+							animation: reveal-banner 1s 0.25s ease-in-out;
+							-moz-animation-fill-mode: forwards;
+							-webkit-animation-fill-mode: forwards;
+							-ms-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+							background: rgba(52, 27, 43, 0.5);
+							color: #fff;
+							display: inline-block;
+							opacity: 0;
+							padding: 3em;
+							text-align: center;
+						}
+				
+							#gåruter-banner .inner header {
+								display: inline-block;
+								border-bottom: solid 2px;
+								border-top: solid 2px;
+								margin: 0 0 2em 0;
+								padding: 3px 0 3px 0;
+							}
+				
+								#gåruter-banner .inner header h2 {
+									border-bottom: solid 2px;
+									border-top: solid 2px;
+									font-size: 2.5em;
+									font-weight: 900;
+									letter-spacing: 0.2em;
+									margin: 0;
+									padding-left: 0.05em;
+									position: relative;
+									text-transform: uppercase;
+								}
+				
+							#gåruter-banner .inner p {
+								letter-spacing: 0.1em;
+								margin: 0;
+								text-transform: uppercase;
+							}
+				
+								#gåruter-banner .inner p a {
+									color: inherit;
+									font-weight: 400;
+									text-decoration: none;
+								}
+				
+							#gåruter-banner .inner footer {
+								margin: 2em 0 0 0;
+							}
+
+							#sport-banner {
+								background-attachment: scroll, scroll, scroll, fixed;
+								background-color: #645862;
+								background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/sport-banner.jpg");
+								background-position: bottom left, bottom right, top left, top center;
+								background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+								background-size: 25em, 25em, auto, cover;
+								color: #fff;
+								cursor: default;
+								padding: 6em 0;
+								text-align: center;
+								background-size: cover;
+							}
+						
+								#sport-banner .inner {
+									-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+									-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+									-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+									animation: reveal-banner 1s 0.25s ease-in-out;
+									-moz-animation-fill-mode: forwards;
+									-webkit-animation-fill-mode: forwards;
+									-ms-animation-fill-mode: forwards;
+									animation-fill-mode: forwards;
+									background: rgba(52, 27, 43, 0.5);
+									color: #fff;
+									display: inline-block;
+									opacity: 0;
+									padding: 3em;
+									text-align: center;
+								}
+						
+									#sport-banner .inner header {
+										display: inline-block;
+										border-bottom: solid 2px;
+										border-top: solid 2px;
+										margin: 0 0 2em 0;
+										padding: 3px 0 3px 0;
+									}
+						
+										#sport-banner .inner header h2 {
+											border-bottom: solid 2px;
+											border-top: solid 2px;
+											font-size: 2.5em;
+											font-weight: 900;
+											letter-spacing: 0.2em;
+											margin: 0;
+											padding-left: 0.05em;
+											position: relative;
+											text-transform: uppercase;
+										}
+						
+									#sport-banner .inner p {
+										letter-spacing: 0.1em;
+										margin: 0;
+										text-transform: uppercase;
+									}
+						
+										#sport-banner .inner p a {
+											color: inherit;
+											font-weight: 400;
+											text-decoration: none;
+										}
+						
+									#sport-banner .inner footer {
+										margin: 2em 0 0 0;
+									}
+			
 /* Main */
 
 	#main {
